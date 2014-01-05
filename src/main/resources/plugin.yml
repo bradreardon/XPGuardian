@@ -5,4 +5,19 @@ generator: http://dinnerbone.com/minecraft/tools/pluginator/
 main: com.github.bradreardon.xpguardian.XPGuardian
 name: XPGuardian
 startup: postworld
-version: 0.1-SNAPSHOT
+version: 0.1
+
+permissions:
+    xpguardian.*:
+        default: false
+        description: Keep all XP normally lost on death.
+        children:
+            xpguardian.pvp: true
+            xpguardian.pve: true
+    xpguardian.pvp:
+        default: false
+        description: Keep XP normally lost on death when killed by a player.
+    xpguardian.pve:
+        default: false
+        description: Keep XP normally lost on death when killed by a mob.
+        
