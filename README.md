@@ -11,3 +11,7 @@ Permissions
 * **xpguardian.pve:** Keeps XP on death when a player is killed by PvE means (i.e. a mob).
 * **xpguardian.pve:** Keeps XP on death when a player is killed by another player.
 * **xpguardian.*:** Inherits both of the nodes above.
+
+Contributing
+------------
+The source for this project can be found on [Github](https://github.com/bradreardon/XPGuardian).
