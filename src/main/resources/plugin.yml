@@ -1,0 +1,8 @@
+author: PixelEater
+database: false
+description: Controls whether or not a player keeps XP on death.
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: com.github.bradreardon.xpguardian.XPGuardian
+name: XPGuardian
+startup: postworld
+version: 0.1-SNAPSHOT
