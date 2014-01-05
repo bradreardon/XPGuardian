@@ -32,4 +32,3 @@ public class XPGuardian extends JavaPlugin implements Listener {
         event.setDroppedExp(0);
     }
 }
-

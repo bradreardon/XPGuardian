@@ -20,4 +20,3 @@ permissions:
     xpguardian.pve:
         default: false
         description: Keep XP normally lost on death when killed by a mob.
-        
